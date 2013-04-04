@@ -1,0 +1,174 @@
+/* DEFAULTS
+--------------------------------------------*/
+body {
+    background: #b6b7bc;
+    font-size: 0.8em;
+    font-family: Helvetica Neue, Lucida Grande, Segoe UI, Arial, Helvetica, Verdana, sans-serif;
+    }
+a:visited, a:link { color: #034af3; }
+a:hover {
+    text-decoration: none;
+    color: #1d60ff;
+    }
+p {
+    margin-bottom: 10px;
+    line-height: 1.6em;
+    }
+/* HEADINGS
+--------------------------------------------*/
+h1, h2, h3, h4, h5, h6 {
+    font-variant: small-caps;
+    font-size: 1.5em;
+    color: #666666;
+    }
+h1 {
+    font-size: 1.6em;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    }
+h2 {
+    font-size: 1.5em;
+    font-weight: 600;
+    }
+h3 { font-size: 1.2em; }
+h4 { font-size: 1.1em; }
+h5, h6 { font-size: 1em; }
+/* this rule styles <h1> and <h2> tags that are the 
+ first child of the left and right table %umns */
+.rightcolumn > h1, .rightcolumn > h2, .leftcolumn > h1, .leftcolumn > h2 { margin-top: 0px; }
+/* PRIMARY LAYOUT ELEMENTS
+--------------------------------------------*/
+.page {
+    width: 100%;
+    background-color: #fff;
+    margin: 0px 0px 0px 0px;
+    border: 1px solid #496077;
+    }
+.header {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    background: #4b6c9e;
+    }
+.header h1 {
+    border: none;
+    cursor: default;
+    color: #f9f9f9;
+    font-weight: 700;
+    margin: 0px;
+    line-height: 2em;
+    font-size: 2em;
+    padding: 0px 0px 0px 10px;
+    }
+.main {
+    padding: 0px 12px;
+    margin: 12px 8px 8px 8px;
+    min-height: 420px;
+    }
+.left {
+    padding: 6px 12px;
+    margin: 12px 8px 8px 8px;
+    width: 200px;
+    min-height: 200px;
+    }
+.footer {
+    text-align: center;
+    line-height: normal;
+    color: #4e5766;
+    padding: 8px 0px 0px 0px;
+    margin: 0px auto;
+    }
+/* TAB MENU
+--------------------------------------------*/
+div.hideSkiplink {
+    background-color: #3a4f63;
+    width: 100%;
+    }
+div.accountInfo { width: 42%; }
+div.menu { padding: 4px 0px 4px 8px; }
+div.menu ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+    }
+div.menu ul li a {
+    display: block;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: #465c71;
+    color: #dde4ec;
+    line-height: 1.35em;
+    padding: 4px 20px;
+    border: 1px solid #4e667d;
+    }
+div.menu ul li a:visited {
+    display: block;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: #465c71;
+    color: #dde4ec;
+    line-height: 1.35em;
+    padding: 4px 20px;
+    border: 1px solid #4e667d;
+    }
+div.menu ul li a:hover {
+    background-color: #bfcbd6;
+    color: #465c71;
+    text-decoration: none;
+    }
+div.menu ul li a:active {
+    background-color: #465c71;
+    color: #cfdbe6;
+    text-decoration: none;
+    }
+/* FORM ELEMENTS
+--------------------------------------------*/
+fieldset {
+    margin: 1em 0px;
+    padding: 1em;
+    border: 1px solid #ccc;
+    }
+fieldset p { margin: 2px 12px 10px 10px; }
+fieldset.login.inline { display: inline; }
+fieldset.login label, fieldset.register label, fieldset.changePassword label { display: block; }
+legend {
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 2px 4px 8px 4px;
+    }
+input.textEntry  {
+    border: 1px solid #ccc;
+    width: 320px;
+    }
+input.passwordEntry {
+    border: 1px solid #ccc;
+    width: 320px;
+    }
+/* MISC
+--------------------------------------------*/
+.clear { clear: both; }
+.title {
+    display: block;
+    float: left;
+    }
+.loginDisplay {
+    font-size: 1.1em;
+    padding: 10px;
+    display: block;
+    text-align: right;
+    color: white;
+    }
+.loginDisplay a:link { color: white; }
+.loginDisplay a:visited { color: white; }
+.loginDisplay a:hover { color: white; }
+.bold { font-weight: bold; }
+.failureNotification {
+    color: red;
+    font-size: 1.2em;
+    }
+.submitButton {
+    text-align: right;
+    padding-right: 10px;
+    }

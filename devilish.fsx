@@ -1,7 +1,10 @@
- - FAILESS - https://github.com/Heather/Failess based on FAKE, inspired by Clay
- - F# Fork - https://github.com/Heather/fsharp just to allow custom operators
- 
-```fsharp
+﻿#I @"D:\Heather\Contrib\mono\Failess\build"
+#r @"FakeLib.dll"
+#r @"FailessLib.dll"
+#r @"Devil.dll"
+open Fake
+open Failess
+
 open 悪魔 (* We make magic tonight my friend *)
 
 Target "Build" /> fun () -> 
@@ -171,4 +174,3 @@ Target "Build" /> fun () ->
                                         paddingRight -- px 10 ]
         ]
 "Build"; RunParameterTargetOrDefault "target" "Build"
-```
