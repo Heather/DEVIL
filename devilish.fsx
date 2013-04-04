@@ -162,9 +162,9 @@ Target "Build" /> fun () ->
                 TextAlign.right
                 Color.white ]
             ☆ a << [
-                %link     @ Color.white
-                %visited  @ Color.white
-                %hover    @ Color.white
+                ⠅ link     @ Color.white
+                ⠅ visited  @ Color.white
+                ⠅ hover    @ Color.white
                 ] ]
 
         ⠂ "bold" @ FontWeight.bold
