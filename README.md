@@ -1,4 +1,4 @@
- - FAILESS - https://github.com/Heather/Failess based on FAKE, inspired by Clay
+﻿ - FAILESS - https://github.com/Heather/Failess based on FAKE, inspired by Clay
  - F# Fork - https://github.com/Heather/fsharp just to allow custom operators
  
 ```fsharp
