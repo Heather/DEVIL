@@ -2,5 +2,6 @@
 /tools/Failess
 /tools/FSharp.Unicode
 
-*.dll
-*.db3
+/*.dll
+/*.db3
+/*.css
