@@ -1,7 +1,7 @@
 ﻿悪魔
 ----
 
-``` shell
+``` fsharp
 Getting Custom F# Compiler with Unicode Support  -> Successfully installed 'FSharp.Unicode 1.0'.
 Getting Failess build tool with CSS EDSL library -> Successfully installed 'Failess 0.0.4'.
 Getting light todo list management util          -> Successfully installed 'ctodo 1.3.0'.
