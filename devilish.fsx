@@ -1,4 +1,4 @@
-﻿#I @"D:\Heather\Contrib\mono\Failess\build"
+﻿#I @"tools\Failess\tools"
 #r @"FakeLib.dll"
 #r @"FailessLib.dll"
 #r @"Devil.dll"
