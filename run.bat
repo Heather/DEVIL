@@ -4,9 +4,9 @@ cls
 SET EnableNuGetPackageRestore=true
 
 ::F# Unicode
-if not exist "tools\FSharp.Unicode\tools\fsc.exe" (
+if not exist "tools\Heather\tools\fsc.exe" (
     echo Getting Custom F# Compiler with Unicode Support
-    "tools\nuget\nuget.exe" "install" "FSharp.Unicode" "-OutputDirectory" "tools" "-ExcludeVersion"
+    "tools\nuget\nuget.exe" "install" "Heather" "-OutputDirectory" "tools" "-ExcludeVersion"
 )
 
 ::Failess - FAKE with custom FSI Support and CSS EDSL Library attached
@@ -22,11 +22,11 @@ if not exist "tools\ctodo\tools\cctodo_100.exe" (
 )
 
 ::Env
-set c=tools\FSharp.Unicode\tools\
+set c=tools\Heather\tools\
 set f=tools\Failess\tools\
 
 ::Compile CSS
-%c%fsc.exe -o:Devil.dll --noframework --optimize+ -r:%c%FSharp.Core.dll -r:%f%FailessLib.dll --target:library --warn:4 --utf8output --fullpaths devil.fs
+%c%fsc.exe -o:Devil.dll --noframework --optimize+ -r:%c%FSharp.Core.dll -r:%f%FailessLib.dll --target:library --warn:4 --utf8output --fullpaths Devil.fs
 %f%Failess.exe FSI=%c%fsi.exe devilish.fsx
 
 ::Read todo
