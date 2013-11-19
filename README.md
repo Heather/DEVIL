@@ -1,6 +1,9 @@
 ﻿悪魔
 ----
 
+By the way it's just for fun
+============================
+
 ``` fsharp
 Getting Custom F# Compiler with Unicode Support  -> Successfully installed 'FSharp.Unicode 1.0'.
 Getting Failess build tool with CSS EDSL library -> Successfully installed 'Failess 0.0.4'.
