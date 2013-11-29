@@ -4,7 +4,7 @@ cls
 SET EnableNuGetPackageRestore=true
 
 ::F# Unicode
-if not exist "tools\Heather\tools\net40\fsc.exe" (
+if not exist "tools\Heather\tools\fsc.exe" (
     echo Getting Custom F# Compiler with Unicode Support
     "tools\nuget\nuget.exe" "install" "Heather" "-OutputDirectory" "tools" "-ExcludeVersion"
 )
@@ -16,13 +16,13 @@ if not exist "tools\Failess\tools\Failess.exe" (
 )
 
 ::ctodo
-if not exist "tools\ctodo\tools\cctodo_100.exe" (
+if not exist "tools\ctodo\tools\cctodo.exe" (
     echo Getting light todo list management util
 	"tools\nuget\nuget.exe" "install" "ctodo" "-OutputDirectory" "tools" "-ExcludeVersion"
 )
 
 ::Env
-set c=tools\Heather\tools\net40\
+set c=tools\Heather\tools\
 set f=tools\Failess\tools\
 
 ::Compile CSS
